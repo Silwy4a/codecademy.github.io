@@ -1,0 +1,100 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+h3 {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+}
+h4 {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  text-decoration: underline;
+}
+p, li{
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.container {
+  display: block;
+  border: 1px solid #5d4057;
+  padding: 10px 50px 20px 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(249,245,233,0.8) 0%, rgba(203,194,202,0.8) 100%);
+}
+
+.colors {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.color1, .color2, .color3, .color4, .color5, .color6 {
+  display: inline;
+  text-align: center;
+  padding: 10px;
+  margin: 3px auto;
+  width: 95px;
+  border-radius: 10px;
+  box-shadow: 0 5px 7px rgba(0,0,0,0.3);
+}
+.color1 {
+  background-color: #5d4057;
+  color: #fff;
+}
+.color2 {
+  background-color: #848689;
+}
+.color3 {
+  background-color: #abcaba;
+}
+.color4 {
+  background-color: #c9d782;
+}
+.color5 {
+  background-color: #ebe3aa;
+}
+.color6 {
+  background-color: #ecf2e4;
+}
+
+.fonts {
+  display: flex;
+  flex-direction: column;
+}
+.font1, .font2, .font3, .font4 {
+  display: inline;
+}
+.font1 p, .font1 h3 {
+  font-family: "Montserrat", sans-serif;
+  padding-right: 10px;
+}
+.font2 p, .font2 h3 {
+  font-family: "Lora", serif;
+}
+.font3 p, .font3 h3 {
+  font-family: "Hind Madurai", sans-serif;
+  padding-right: 10px;
+}
+.font4 p, .font4 h3 {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+
+
+
+
+
+
+
+
